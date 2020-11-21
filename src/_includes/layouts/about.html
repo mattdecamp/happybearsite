@@ -1,0 +1,16 @@
+{% extends "layouts/base.html" %} 
+
+{% block content %}
+  <article>
+    <img src="{{ page.person.image }}" alt="{{ page.person.imagealt }}" />
+    <h2>
+      {{ page.person.name }}
+      <span>
+        {{ page.person.position }}
+      </span>
+    </h2>
+    <p>
+      {{ page.person.about }}
+    </p>
+  </article>
+{% endblock %}

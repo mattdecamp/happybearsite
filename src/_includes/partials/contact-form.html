@@ -1,0 +1,62 @@
+<!-- Thank you for the guidance, Boilerform boilerform.hankchizljaw.com -->
+
+<form id="contactform" action="#" method="post">
+  <fieldset class="c-form">
+    <legend class="c-heading">Contact</legend>
+    <div class="c-row">
+      <label for="name" class="c-label">Name:</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="c-input"
+        value=""
+        tabindex="1"
+      />
+    </div>
+    <div class="c-row">
+      <label for="email" class="c-label">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="name"
+        class="c-input"
+        autocapitalize="none"
+        autocorrect="off"
+        value=""
+        tabindex="1"
+        required
+      />
+    </div>
+    <div class="c-row">
+      <label for="project" class="c-label">Tell us about your project:</label>
+      <textarea
+        rows="12"
+        name="project"
+        id="project"
+        class="c-input multiline"
+      ></textarea>
+    </div>
+    <div class="c-row">
+      <label for="timeline" class="c-label">What is your timeline?</label>
+      <textarea
+        rows="12"
+        name="timeline"
+        id="timeline"
+        class="c-input multiline"
+      ></textarea>
+    </div>
+    <div class="c-row">
+      <label for="budget" class="c-label">Project Budget</label>
+      <select name="budget" id="budget" class="c-input">
+        <option value="Please Select" selected>Please Select</option>
+        <option value="Less than $5,000">Less than $5,000</option>
+        <option value="$5000-$15,000">$5000-$15,000</option>
+        <option value="$15,000+">$15,000+</option>
+      </select>
+    </div>
+    <div class="c-row">
+      <button type="submit" class="c-button">Submit</button>
+    </div>
+  </fieldset>
+</form>

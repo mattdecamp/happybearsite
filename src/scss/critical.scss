@@ -1,0 +1,15 @@
+// reset style
+@import 'reset';
+
+// utilities
+@import './utilities/variables';
+@import './utilities/typography';
+
+// layouts
+@import 'main-layout.scss';
+@import 'landing-layout.scss';
+
+//components
+@import 'components/header';
+@import 'components/nav';
+@import 'components/footer';

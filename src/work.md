@@ -1,0 +1,36 @@
+---
+title: 'Work'
+layout: 'layouts/work.html'
+page:
+  heading: 'Work'
+  blurb: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, voluptates placeat obcaecati, est repellendus in sapiente illo nesciunt voluptatum non at quae repellat accusamus. Non quia commodi delectus. Beatae, doloremque.'
+  recent: 'Recent Projects'
+  clients: 'Past Clients'
+projects:
+- name: 'Trondossa Music & Arts Festival'
+  blurb: 'WordPress, Bootstrap'
+  image: ''
+  imagealt: 'Trondossa Website Image'
+- name: 'Keepers Record Club'
+  blurb: 'Shopify, WooCommerce, WordPress'
+  image: ''
+  imagealt: 'Keepers Website Image'
+- name: 'Widespread Panic Archive'
+  blurb: 'WordPress, BeaverBuilder'
+  image: ''
+  imagealt: 'WPA Website Image'
+clients:
+  -  'Client B'
+  -  'Client C'
+  -  'Client D'
+  -  'Client E'
+  -  'Client F'
+  -  'Client G'
+  -  'Client H'
+  -  'Client I'
+  -  'Client J'
+  -  'Client K'
+  -  'Client L'
+  -  'Client M'
+---
+
