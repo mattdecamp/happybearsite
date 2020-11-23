@@ -1,0 +1,59 @@
+#scenery {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  max-height: 50vh;
+  min-width: 100%;
+  overflow: hidden;
+}
+#trees {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: auto;
+  max-height: 50vh;
+  width: 100%;
+  background-image: linear-gradient(#7798ab, #7798ab);
+  background-size: 100% 30%, 100% 30%;
+  background-position: 100% 100%, 0 100%;
+  background-repeat: no-repeat, no-repeat;
+}
+#trees svg:first-child {
+  position: relative;
+  left: -10vw;
+}
+#trees svg:nth-child(2n) {
+  position: relative;
+  left: -32vw;
+  z-index: 1;
+}
+#trees svg:nth-child(3n) {
+  position: relative;
+  left: -52vw;
+}
+#trees svg {
+  position: relative;
+  width: 100%;
+}
+#sun--container {
+  position: relative;
+  float: right;
+  right: 5vw;
+  bottom: 0;
+  width: 50vw;
+  max-width: 80%;
+  max-height: 50vh;
+  z-index: -1;
+  animation: sunrise ease-out 1.5s forwards;
+  overflow: hidden;
+}
+@keyframes sunrise {
+  from {
+    bottom: -300px;
+  }
+  to {
+    bottom: -100px;
+  }
+}

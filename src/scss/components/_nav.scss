@@ -1,5 +1,22 @@
+#header--nav ul {
+  padding-inline-start: 0;
+}
 #header--nav ul li {
   padding-inline-end: var(--s1);
   display: inline-flex;
   justify-content: space-between;
+}
+#header--nav ul li a {
+  font-size: var(--s1);
+  text-decoration: none;
+  color: var(--forestblack);
+  border-bottom: 2px solid var(--dark-grey);
+}
+@media (max-width: 45em) {
+  .header {
+    color: grey;
+  }
+  #header--nav ul {
+    text-align: center;
+  }
 }

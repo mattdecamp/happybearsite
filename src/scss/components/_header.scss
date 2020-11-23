@@ -1,14 +1,20 @@
-// Header container
 header {
   padding: var(--s3) 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  // align-items: center;
+}
+#header--logo {
+  width: 100%;
+  max-width: 25ch;
+}
+#header--logo a {
+  width: 100%;
+}
+@media (max-width: 45em) {
+  header {
+    flex-direction: column;
+  }
 }
 
-// Header Logo
-#header--logo {
-  min-width: 30ch;
-  max-width: 40ch;
-}

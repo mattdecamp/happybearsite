@@ -1,44 +1,52 @@
 :root {
-    /* COLOR SCHEME */
-    --color-mode: 'light';
-    // --pink: hsl(346, 84%, 61%);
-    // --hover-pink: hsl(346, 74%, 61%);
-    // --yellow: hsl(42, 100%, 70%);
-    // --green: hsl(164, 95%, 43%);
-    // --blue: hsl(195, 83%, 38%);
-    // --midnight: hsl(195, 83%, 16%);
-    // --white: hsla(0, 0%, 97%);
-    // --grey: hsla(0,0,94%);
-    
-    // --background: var(--white);
-    // --text-color: var(--midnight);
-    // --link-color: var(--midnight);
-    // --link-hover-color: var(--white);
-    // --link-border-color: var(--blue);
-    // --link-border-hover: var(--pink);
-    // --link-shadow-color: var(--green);
-    // --link-shadow-hover: var(--pink);
-    // --button-color: var(--blue);
-    // --button-hover: var(--pink);
-    // --button-text-color: var(--white);
-    // --button-text-color-hover: var(--white);
-    // --hr: var(--blue);
-    // --post-even-shadow: var(--yellow);
-    // --post-odd-shadow: var(--green);
-    
-    
-    /****** GLOBAL STYLES ******/
-    /* MODULAR SPACING */
-    --ratio: 1.25;
-    --s-5: calc(var(--s-4) / var(--ratio));
-    --s-4: calc(var(--s-3) / var(--ratio));
-    --s-3: calc(var(--s-2) / var(--ratio));
-    --s-2: calc(var(--s-1) / var(--ratio));
-    --s-1: calc(var(--s0) / var(--ratio));
-    --s0: 1rem;
-    --s1: calc(var(--s0) * var(--ratio));
-    --s2: calc(var(--s1) * var(--ratio));
-    --s3: calc(var(--s2) * var(--ratio));
-    --s4: calc(var(--s3) * var(--ratio));
-    --s5: calc(var(--s4) * var(--ratio));    
+  /* COLOR SCHEME */
+  --color-mode: "light";
+
+    --white: #fffbfc;
+    --treegreen: #058a41;
+    --pink: #e34a6f;
+    --slate-blue: #7798ab;
+    --forest-black: #0d1b1e;
+    --primary-grey: #707070;
+    --dark-grey: #4e4e4e;
+
+  // --pink: hsl(346, 84%, 61%);
+  // --hover-pink: hsl(346, 74%, 61%);
+  // --yellow: hsl(42, 100%, 70%);
+  // --green: hsl(164, 95%, 43%);
+  // --blue: hsl(195, 83%, 38%);
+  // --midnight: hsl(195, 83%, 16%);
+  // --white: hsla(0, 0%, 97%);
+  // --grey: hsla(0,0,94%);
+
+  // --background: var(--white);
+  // --text-color: var(--midnight);
+  // --link-color: var(--midnight);
+  // --link-hover-color: var(--white);
+  // --link-border-color: var(--blue);
+  // --link-border-hover: var(--pink);
+  // --link-shadow-color: var(--green);
+  // --link-shadow-hover: var(--pink);
+  // --button-color: var(--blue);
+  // --button-hover: var(--pink);
+  // --button-text-color: var(--white);
+  // --button-text-color-hover: var(--white);
+  // --hr: var(--blue);
+  // --post-even-shadow: var(--yellow);
+  // --post-odd-shadow: var(--green);
+
+  /****** GLOBAL STYLES ******/
+  /* MODULAR SPACING */
+  --ratio: 1.25;
+  --s-5: calc(var(--s-4) / var(--ratio));
+  --s-4: calc(var(--s-3) / var(--ratio));
+  --s-3: calc(var(--s-2) / var(--ratio));
+  --s-2: calc(var(--s-1) / var(--ratio));
+  --s-1: calc(var(--s0) / var(--ratio));
+  --s0: 1rem;
+  --s1: calc(var(--s0) * var(--ratio));
+  --s2: calc(var(--s1) * var(--ratio));
+  --s3: calc(var(--s2) * var(--ratio));
+  --s4: calc(var(--s3) * var(--ratio));
+  --s5: calc(var(--s4) * var(--ratio));
 }
