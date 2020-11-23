@@ -16,7 +16,9 @@
   },
   "dependencies": {
     "concurrently": "^5.3.0",
+    "get-google-fonts": "^1.2.2",
     "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^4.1.0",
     "sass": "^1.29.0"
   }
