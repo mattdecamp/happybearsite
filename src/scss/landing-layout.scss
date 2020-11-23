@@ -1,4 +1,4 @@
-.full-width-container {
+#full-width-container {
   width: 100%;
   min-width: 100%;
   display: grid;
@@ -11,5 +11,8 @@
 #full-width-main--container {
   display: grid;
   place-items: center;
+}
+
+#intro--container {
   text-align: center;
 }

@@ -33,8 +33,10 @@
       <div id="main--container">
         {% include "partials/header.html" %}
         <main id="full-width-main--container">
-          <h1>{{ intro.lead }}</h1>
-          <p>{{ intro.sub }}</p>
+          <div id="intro--container">
+            <h1>{{ intro.lead }}</h1>
+            <p>{{ intro.sub }}</p>
+          </div>
         </main>
       </div>
       {% include "partials/landing-scene.html" %}
