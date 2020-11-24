@@ -23,7 +23,10 @@
       {% include "partials/header.html" %}
       <main>
         {% include "partials/page-heading.html" %}
-        {% block content %}{% endblock %}
+        <div id="page--content">
+          {% include "partials/page-blurb.html" %}
+          {% block content %}{% endblock %}
+        </div>
       </main>
       {% include "partials/footer.html" %}
     </div>

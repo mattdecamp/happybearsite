@@ -1,0 +1,16 @@
+.section--heading {
+  padding: 0.25rem 1.5rem;
+  margin-top: var(--s4);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  transform: skew(-10deg);
+  background: var(--pink-light);
+  & h2 {
+    transform: skew(10deg);
+  }
+
+}
+

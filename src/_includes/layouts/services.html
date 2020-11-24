@@ -1,19 +1,23 @@
 {% extends "layouts/base.html" %} 
 
 {% block content %}
-  {% include "partials/page-blurb.html" %}
   <!-- begin services list -->
-  
-  {% for service in services %}
-  <h2>
-    {{ service.name }}
-  </h2>
-  <ul>
-  {% for item in service.bullets %}
-   <li>
-     {{ item }}
-   </li>
-  {% endfor %}
-  </ul>
-  {% endfor %}
+  <section id="services">
+    {% for service in services %}
+      <div class="service">
+        <div class="section--heading">
+          <h2>
+            {{ service.name }}
+          </h2>
+        </div>
+        <ul>
+        {% for item in service.bullets %}
+          <li>
+            {{ item }}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+  </section>
 {% endblock %}

@@ -1,0 +1,26 @@
+#services {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--s5);
+  & div:nth-child(2) {
+    & .section--heading{
+      background: var(--green-light);
+    }
+  }
+  & div:nth-child(3n) {
+    & .section--heading{
+      background: var(--blue-light);
+    }
+  }
+  & div:nth-child(4n) {
+    & .section--heading{
+      background: var(--grey-light);
+    }
+  }
+}
+
+.service ul li {
+  line-height: 2;
+}
+
+

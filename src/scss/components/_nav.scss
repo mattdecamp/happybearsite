@@ -8,7 +8,7 @@
 }
 #header--nav ul li {
   display: inline-block;
-  margin-right: var(--s2);
+  padding: 0 var(--s-4);
   &:last-child {
     margin-right: 0;
   }
@@ -32,10 +32,11 @@
     & ul {
       display: flex;
       flex-wrap: wrap;
-      gap: 5px;
-      justify-content: space-between;
+      justify-content: center;
+      margin-block-start: 0;
+      margin-block-end: 0;
       li {
-        margin-right: 0;
+        // padding: 0 var(--s-4);
         & a {
           font-size: clamp(var(--s-1), 5vw, var(--s1));
         }
