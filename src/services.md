@@ -5,7 +5,7 @@ page:
   heading: 'Services'
   blurb: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, voluptates placeat obcaecati, est repellendus in sapiente illo nesciunt voluptatum non at quae repellat accusamus. Non quia commodi delectus. Beatae, doloremque.'
 services:
-- name: 'General'
+- name: 'General Services'
   bullets:
   -  Site Design and Layout
   -  Protoyping

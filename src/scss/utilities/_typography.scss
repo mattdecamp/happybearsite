@@ -19,7 +19,7 @@ h1 {
   font-size: clamp(var(--s3), 10vw, var(--s5));
 }
 h2 {
-  font-size: var(--s4);
+  font-size: clamp(var(--s2), 8vw, var(--s4));
 }
 h3 {
   font-size: var(--s3);
@@ -29,4 +29,7 @@ h4 {
 }
 .lead {
   font-size: var(--s1);
+}
+p,ul,li {
+  font-size: clamp(var(--s0), 5vw, var(--s1));
 }

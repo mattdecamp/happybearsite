@@ -4,6 +4,7 @@
 // utilities
 @import './utilities/variables';
 @import './utilities/typography';
+@import './utilities/tools';
 
 // layouts
 @import 'main-layout.scss';
@@ -19,3 +20,4 @@
 @import 'components/section-heading';
 
 @import 'components/services-grid';
+@import 'components/about';

@@ -4,13 +4,24 @@ body {
 }
 #main--container {
   margin: 0 auto;
-  width: 90%;
-  padding: var(--s2);
-  max-width: 1200px;
+  // width: min(65ch,100%);
+  // padding: var(--s2);
+  // max-width: 1200px;
   background: 0 0;
 }
 
 #page--content {
-  width: 95%;
+  width: min(65ch, 100%);
   margin: 0 auto;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 
+    1fr
+    min(65ch, 100%)
+    1fr;
+  & > * {
+    grid-column: 2;
+  }
 }

@@ -1,0 +1,28 @@
+.full-bleed {
+  width: 100%;
+  grid-column: 1 / -1;
+}
+
+// line break
+.break {
+  // height: 0;
+  border: 1px solid var(--black);
+  background: var(--black);
+}
+
+// Text
+// Smaller 
+.smaller {
+  font-size: var(--s0);
+}
+
+// Colors
+  .txt-grey-primary {
+    color: var(--grey-primary);
+  }
+  .txt-grey-light {
+    color: var(--grey-light);
+  }
+  .txt-pink-primary {
+    color: var(--pink-primary);
+  }

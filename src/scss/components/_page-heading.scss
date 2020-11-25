@@ -1,6 +1,7 @@
 .page--heading {
+  grid-column: 1 / -1;
   padding: var(--s1);
-  margin: var(--s0) 0 var(--s2) 0;
+  // margin: var(--s0) 0 var(--s0) 0;
   text-align: center;
   text-transform: uppercase;
   border-top: 3px solid var(--black);

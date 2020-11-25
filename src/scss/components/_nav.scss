@@ -16,10 +16,10 @@
 #header--nav ul li a {
   font-size: var(--s1);
   text-decoration: none;
-  color: var(--forestblack);
-  border-bottom: 3px solid var(--dark-grey);
+  color: var(--black);
+  border-bottom: 3px solid var(--grey-primary);
   &:hover {
-    border-bottom: 3px solid var(--pink);
+    border-bottom: 3px solid var(--pink-primary);
   }
 }
 @media (max-width: 60em) {
