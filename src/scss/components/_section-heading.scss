@@ -1,6 +1,5 @@
 .section--heading {
-  padding: calc(var(--s4) * 1.2) calc(var(--s4) * 0.75);
-  // margin-top: var(--s4);
+  padding: calc(var(--s4) * 1.1) calc(var(--s4) * 0.75);
   display: flex;
   justify-content: left;
   align-items: center;
@@ -11,7 +10,6 @@
   & h2 {
     transform: skew(20deg);
   }
-
 }
 
 @media (max-width: 885px) {

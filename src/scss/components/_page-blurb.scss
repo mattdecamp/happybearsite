@@ -1,5 +1,6 @@
 #page--blurb {
-  width: 100%;
-  margin: var(--s0) 0 var(--s4);
+  width: min(65ch,90%);
+  margin: 0 auto;
+  padding: var(--s0) 0 var(--s4);
   hyphens: auto;
 }

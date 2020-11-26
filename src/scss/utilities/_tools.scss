@@ -3,6 +3,15 @@
   grid-column: 1 / -1;
 }
 
+// 65ch width
+.sixtyfive-full {
+  width: min(65ch,100%);
+}
+.sixtyfive-ninety {
+  width: min(65ch,90%);
+  margin: 0 auto;
+}
+
 // line break
 .break {
   // height: 0;
@@ -14,6 +23,11 @@
 // Smaller 
 .smaller {
   font-size: var(--s0);
+}
+
+// sans-serif
+.sans-serif {
+  font-family: "Lato", sans-serif;
 }
 
 // Colors

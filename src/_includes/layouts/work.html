@@ -1,31 +1,42 @@
 {% extends "layouts/base.html" %} 
 
 {% block content %}
-  <h2>
-    {{ page.recent }}
-  </h2>
-  <ul>
-    {% for project in projects %}
-    <li>
-      <h3>
-        {{project.name}}
-      </h3>
-      <span>
-        {{ project.blurb }}
-      </span>
-      <img src="{{project.image}}" alt="{{project.imagealt}}" />
-    </li>
-    {% endfor %}
-  </ul>
-
-  <h2>
-    {{page.clients}}
-  </h2>
-  <ul>
-    {% for client in clients %}
-    <li>
-      {{ client }}
-    </li>
-    {% endfor %}
-  </ul>
+  <section id="works">
+    <div class="work">
+      <div class="section--heading">
+        <h2>
+          {{ page.recent }}
+        </h2>
+      </div>
+      <ul>
+        {% for project in projects %}
+        <li>
+          <h4>
+            {{project.name}}
+          </h4>
+          <span class="smaller">
+            {{ project.blurb }}
+          </span>
+          <div class="work--image-container">
+            <img src="{{project.image}}" alt="{{project.imagealt}}" />
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="work">
+      <div class="section--heading">
+        <h2>
+          {{page.clients}}
+        </h2>
+      </div>
+      <ul>
+        {% for client in clients %}
+        <li>
+          {{ client }}
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
 {% endblock %}

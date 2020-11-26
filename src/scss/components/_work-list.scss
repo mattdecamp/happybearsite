@@ -1,0 +1,25 @@
+#works .work ul {
+  padding-inline: 0;
+  padding: 0 var(--s-1);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(30ch,1fr));
+  gap: var(--s3);
+  
+  & li {
+    padding: var(--s3) 0;
+    list-style-type: none;
+  }
+
+  .work--image-container {
+    width: 100%;
+    height: min(50vw,400px);
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 800px) {
+  .work ul {
+    width: 90%;
+  }
+}

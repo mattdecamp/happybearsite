@@ -33,3 +33,12 @@ h4 {
 p,ul,li {
   font-size: clamp(var(--s0), 5vw, var(--s1));
 }
+
+ul {
+  list-style: square;
+}
+
+a {
+  color: var(--black);
+  text-decoration-color: var(--green-primary);
+}
