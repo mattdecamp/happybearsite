@@ -2,11 +2,11 @@
   width: 100%;
   min-width: 100%;
   display: grid;
-  grid-template-rows: 60vh 40vh;
+  grid-template-rows: auto 40vh auto;
 }
-#main--container {
+#main--container-landing {
   display: grid;
-  grid-template-rows: auto 1fr;
+  grid-template-rows: 1fr;
 }
 #full-width-main--container {
   display: grid;
