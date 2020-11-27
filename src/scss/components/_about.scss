@@ -16,7 +16,16 @@
     margin-bottom: var(--s-4);
   }
 }
+
+#about--img-container {
+  border-radius: 2000px;
+  // border: 10px solid var(--black);
+}
 #about--img {
-  clip-path: circle(50% at 50% 50%);
-  grid-column: 1;
+  // border: 0.5em solid var(--white);
+    border-radius: 2000px;
+    grid-column: 1;
+    box-shadow: 0px -20px var(--pink-primary)
+  
+
 }

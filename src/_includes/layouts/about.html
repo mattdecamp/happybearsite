@@ -2,7 +2,9 @@
 
 {% block content %}
   <article id="about--container">
-    <img id="about--img" src="{{ page.person.image }}" alt="{{ page.person.imagealt }}" />
+    <div id="about--img-container">
+      <img id="about--img" src="{{ page.person.image }}" alt="{{ page.person.imagealt }}" />
+    </div>
     <div id="about--text">
       <h2>
         {{ page.person.name }}
