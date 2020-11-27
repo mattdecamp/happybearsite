@@ -1,0 +1,20 @@
+button {
+  width: auto;
+  padding: var(--s-5) var(--s4);
+  height: auto;
+  font-family: "Patua One", serif;
+  font-size: var(--s3);
+  // text-shadow: 1px 2px #cfd8dc;
+  background: transparent;
+  border: 3px solid #333;
+  box-shadow: 6px 6px var(--pink-primary);
+  cursor: pointer;
+  transform: 2s ease;
+  &:active {
+    position: relative;
+    left: 8px;
+    top: 8px;
+    box-shadow: none;
+    text-shadow: none;
+  }
+}

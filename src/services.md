@@ -7,16 +7,15 @@ page:
 services:
 - name: 'General Services'
   bullets:
-  -  Site Design and Layout
+  -  Site Design and Development
   -  Protoyping
   -  Site Redesign and Migration
-  -  E-Commerce Stores and Implementation
+  -  E-Commerce Store Design and Implementation
 - name: 'WordPress'
   bullets: 
-  -  Site Design and Development
-  -  Theme Customization and Redesigns
-  -  WordPress to Headless Migrations
-  -  Wordpress to Static Site Migrations
+  -  Custom Theme Design and Development
+  -  Theme Upgrade and Redesign
+  -  Wordpress to Static Site Migration
 - name: 'Shopify'
   bullets: 
   -  Theme Design and Customization
