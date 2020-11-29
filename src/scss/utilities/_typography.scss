@@ -30,8 +30,14 @@ h4 {
 .lead {
   font-size: var(--s1);
 }
-p,ul,li {
+p {
+  margin-bottom: var(--s-2);
+}
+p,
+ul,
+li {
   font-size: clamp(var(--s0), 5vw, var(--s1));
+  line-height: 1.5;
 }
 
 ul {

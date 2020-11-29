@@ -5,7 +5,7 @@
     padding: 0 var(--s-1);
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
     gap: 0 var(--s3);
     
     & li {
@@ -15,9 +15,11 @@
   }
   & #clients {
     margin-top: var(--s1);
+    // width: 90%;
+    padding: 0 var(--s3);
     & li {
     padding: var(--s-4) 0;
-    // list-style-type: ;
+    list-style-type: square;
   }
 }
 }

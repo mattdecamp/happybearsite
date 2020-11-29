@@ -16,7 +16,7 @@ projects:
   image: '/images/keepers-record-club-site.jpg'
   imagealt: 'Keepers Record Club Website Image'
 - name: 'Widespread Panic Archive'
-  blurb: 'WordPress, BeaverBuilder'
+  blurb: 'WordPress'
   image: '/images/widespread-panic-archive-site.jpg'
   imagealt: 'Widespread Panic Archive Website Image'
 - name: 'DeCamp.dev'
