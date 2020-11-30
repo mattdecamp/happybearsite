@@ -4,6 +4,7 @@
   "description": "Website for Happy Bear Web Design Shop",
   "main": "index.js",
   "scripts": {
+    "serve": "npx @11ty/eleventy --serve",
     "start": "npx gulp && concurrently \"npx gulp watch\" \"npx eleventy --serve\"",
     "production": "NODE_ENV=production npx gulp && NODE_ENV=production npx eleventy"
   },
