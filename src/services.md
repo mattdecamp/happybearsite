@@ -3,7 +3,8 @@ title: 'Services'
 layout: 'layouts/services.html'
 page:
   heading: 'Services'
-  blurb: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, voluptates placeat obcaecati, est repellendus in sapiente illo nesciunt voluptatum non at quae repellat accusamus. Non quia commodi delectus. Beatae, doloremque.'
+  blurb: >
+    We believe in a progressive, performant and accessible web. We build sites and applications to meet the client's goals and criteria, with user experience at the forefront.
 services:
 - name: 'General Services'
   bullets:

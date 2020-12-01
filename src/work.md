@@ -3,7 +3,7 @@ title: 'Work'
 layout: 'layouts/work.html'
 page:
   heading: 'Work'
-  blurb: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima, voluptates placeat obcaecati, est repellendus in sapiente illo nesciunt voluptatum non at quae repellat accusamus. Non quia commodi delectus. Beatae, doloremque.'
+  blurb: 'Happy Bear serves clients from many different industries, with focus on accessibility, performance, responsiveness and optimum user experience across devices.'
   recent: 'Recent Projects'
   clients: 'Featured Clients'
 projects:
