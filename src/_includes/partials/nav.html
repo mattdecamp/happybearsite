@@ -1,19 +1,20 @@
 <nav id="header--nav">
-    <ul>
-      {% for item in navigation.items %}
-      <li>
-        <a
-          href="{{ item.url }}"
-          {{
-          helpers.getLinkActiveState(item.url,
-          page.url)
-          |
-          safe
-          }}
-        >
-          {{ item.name }}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-  </nav>
+  <ul>
+    {% for item in navigation.items %}
+    <li>
+      <a
+        href="{{ item.url }}"
+        title="{{item.title}}"
+        {{
+        helpers.getLinkActiveState(item.url,
+        page.url)
+        |
+        safe
+        }}
+      >
+        {{ item.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</nav>

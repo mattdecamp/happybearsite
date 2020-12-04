@@ -2,19 +2,23 @@
   "items": [
     {
       "name": "Services",
-      "url": "/services/"
+      "url": "/services/",
+      "title": "The services Happy Web Design Shop Provides"
     },
     {
       "name": "Work",
-      "url": "/work/"
+      "url": "/work/",
+      "title": "Happy Bear's recent projects and a select list of past clients"
     },
     {
       "name": "About",
-      "url": "/about/"
+      "url": "/about/",
+      "title": "Learn a bit about the people at Happy Bear"
     },
     {
       "name": "Contact",
-      "url": "/contact/"
+      "url": "/contact/",
+      "title": "Get in touch with Happy Bear"
     }
   ]
 }
