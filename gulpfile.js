@@ -13,7 +13,6 @@ const prefix = require("./gulp-tasks/prefix.js");
 const watcher = () => {
   watch("./src/scss/**/*.scss", { ignoreInitial: true }, sass);
   watch("./src/images/**/*", { ignoreInitial: true }, images);
-  watch("./src/_includes/css/*", { ignoreInitial: false }, prefix);
 };
 
 // The default (if someone just runs `gulp`) is to run each task in parrallel

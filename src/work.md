@@ -1,6 +1,8 @@
 ---
 title: 'Work'
 layout: 'layouts/work.html'
+permalink: '/work/index.html'
+metaDesc: 'Recent Projects & Past Clients'
 page:
   heading: 'Work'
   blurb: 'Happy Bear serves clients from many different industries, with focus on accessibility, performance, responsiveness and optimum user experience across devices.'

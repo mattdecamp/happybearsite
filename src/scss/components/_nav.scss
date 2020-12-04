@@ -19,6 +19,11 @@
     border-bottom: 3px solid var(--pink-primary);
   }
 }
+
+#header--nav ul li a[data-state="active"] {
+  border-bottom: 3px solid var(--pink-primary);
+}
+
 @media (max-width: 60em) {
   .header {
     color: grey;
@@ -41,3 +46,5 @@
     }
   }
 }
+
+

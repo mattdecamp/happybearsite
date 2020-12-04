@@ -1,6 +1,7 @@
 ---
 title: 'Services'
 layout: 'layouts/services.html'
+permalink: '/services/index.html'
 page:
   heading: 'Services'
   blurb: >

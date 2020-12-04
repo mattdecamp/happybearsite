@@ -2,21 +2,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 <title>{{ site.name }} | {{ title }}</title>
-<link rel="canonical" href="{{ currentUrl }}" />
-
+<link rel="canonical" href="{{ permalink }}" />
 <meta property="og:site_name" content="{{ site.name }}" />
 <meta property="og:title" content="{{ title }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ site.url }}" />
-
-{% if socialImage %}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta property="og:image" content="{{ socialImage }}" />
-  <meta name="twitter:image" content="{{ socialImage }}" />
-  <meta property="og:image:alt" content="Page image for {{ site.name }}" />
-  <meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
-{% endif %}
-
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="og:image" content="{{site.url}}{{ site.socialImage }}" />
+<meta name="twitter:image" content="{{site.url}}{{ site.socialImage }}" />
+<meta property="og:image:alt" content="Page image for {{ site.name }}" />
+<meta name="twitter:image:alt" content="Page image for {{ site.name }}" />
 {% if metaDesc %}
   <meta name="description" content="{{ metaDesc }}" />
   <meta name="twitter:description" content="{{ metaDesc }}" />
