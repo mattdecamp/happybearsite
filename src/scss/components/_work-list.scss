@@ -32,6 +32,10 @@
   // border-radius: 150px;
   outline: 2px solid var(--black);
   box-shadow: 12px 12px var(--blue-primary);
+  & img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 @media (max-width: 800px) {

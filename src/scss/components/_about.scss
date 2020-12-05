@@ -24,6 +24,8 @@
 }
 #about--img {
   // border: 0.5em solid var(--white);
+  width: 100%;
+  height: auto;
   border-radius: 2000px;
   grid-column: 1;
   box-shadow: 0.5rem 0.6rem var(--pink-primary);
