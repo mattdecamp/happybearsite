@@ -3,22 +3,26 @@
     {
       "name": "Services",
       "url": "/services/",
-      "title": "The services Happy Web Design Shop Provides"
+      "title": "The services Happy Web Design Shop Provides",
+      "aria": "Happy Bear's Services"
     },
     {
       "name": "Work",
       "url": "/work/",
-      "title": "Happy Bear's recent projects and a select list of past clients"
+      "title": "Happy Bear's recent projects and a select list of past clients",
+      "aria": "Happy Bear's Previous Work"
     },
     {
       "name": "About",
       "url": "/about/",
-      "title": "Learn a bit about the people at Happy Bear"
+      "title": "Learn a bit about the people at Happy Bear",
+      "aria": "More about Happy Bear"
     },
     {
       "name": "Contact",
       "url": "/contact/",
-      "title": "Get in touch with Happy Bear"
+      "title": "Get in touch with Happy Bear",
+      "aria": "Contact Us"
     }
   ]
 }
