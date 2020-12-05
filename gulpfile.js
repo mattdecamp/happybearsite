@@ -4,7 +4,7 @@ const { parallel, watch } = require("gulp");
 const fonts = require("./gulp-tasks/fonts.js");
 const images = require("./gulp-tasks/images.js");
 const sass = require("./gulp-tasks/sass.js");
-const prefix = require("./gulp-tasks/prefix.js");
+// const prefix = require("./gulp-tasks/prefix.js");
 
 // Set each directory and contents that we want to watch and
 // assign the relevant task. `ignoreInitial` set to true will
@@ -16,7 +16,7 @@ const watcher = () => {
 };
 
 // The default (if someone just runs `gulp`) is to run each task in parrallel
-exports.default = parallel(fonts, images, sass, prefix);
+exports.default = parallel(fonts, images, sass);
 
 // This is our watcher task that instructs gulp to watch directories and
 // act accordingly
