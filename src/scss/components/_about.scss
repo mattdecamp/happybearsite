@@ -1,5 +1,6 @@
 #about--container {
   max-width: 90%;
+  min-height: 20em;
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
