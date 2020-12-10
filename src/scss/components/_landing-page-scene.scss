@@ -17,7 +17,7 @@
   width: 100%;
   background-image: linear-gradient(#7798ab, #7798ab);
   background-size: 100% 30%, 100% 30%;
-  background-position: 100% 100%, 0 100%;
+  background-position: 100% 100%, 100% 100%;
   background-repeat: no-repeat, no-repeat;
 }
 #trees svg:first-child {
@@ -38,7 +38,7 @@
   width: 100%;
 }
 #sun--container {
-  position: relative;
+  position: fixed;
   // float: right;
   // right: 5vw;
 left: 45vw;
