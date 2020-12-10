@@ -39,8 +39,9 @@
 }
 #sun--container {
   position: relative;
-  float: right;
-  right: 5vw;
+  // float: right;
+  // right: 5vw;
+left: 45vw;
   bottom: 0;
   width: 50vw;
   max-width: 80%;
@@ -59,7 +60,7 @@
 }
 
 
-@media screen and (max-width: 800px) and (orientation:landscape) {
+@media (max-width: 800px) and (orientation:landscape) {
   .blank {
     color: red;
   }

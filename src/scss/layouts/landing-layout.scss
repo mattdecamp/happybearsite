@@ -10,9 +10,12 @@
 }
 #full-width-main--container {
   display: grid;
+  grid-template-columns: 1fr ;
   place-items: center;
 }
 
 #intro--container {
   text-align: center;
+  grid-column: 1;
+  width: 90%;
 }
