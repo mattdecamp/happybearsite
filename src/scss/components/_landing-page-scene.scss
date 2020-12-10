@@ -10,7 +10,7 @@
 #trees {
   display: flex;
   position: fixed;
-  bottom: 0;
+  bottom: -10px;
   left: 0;
   height: auto;
   max-height: 50vh;
@@ -41,7 +41,7 @@
   position: fixed;
   // float: right;
   // right: 5vw;
-left: 45vw;
+  left: 45vw;
   bottom: 0;
   width: 50vw;
   max-width: 80%;
@@ -59,8 +59,7 @@ left: 45vw;
   }
 }
 
-
-@media (max-width: 900px) and (orientation:landscape) {
+@media (max-width: 900px) and (orientation: landscape) {
   .blank {
     color: red;
   }
